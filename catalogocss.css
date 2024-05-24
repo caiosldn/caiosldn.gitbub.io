@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+.filme img {
+    width: 250px;
+    height: 370px; /
+    object-fit: cover; /
+}
+
+.descricao {
+    padding: 20px;
+    width: 50%;
+}
+
+.descricao h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.descricao p {
+    margin: 0;
+}
